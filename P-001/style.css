@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: inter;
+    src: url(fonts/static/Inter-Bold.ttf),
+        url(fonts/static/inter-Semi-Bold.ttf)
+}
+
+body {
+    background-color: black;
+}
+
+#container {
+    border: 1px solid #1f1f1f;
+    width: 400px;
+    height: 650px;
+    margin: auto;
+    margin-top: 6%;
+    border-radius: 15px;
+    font-family: sans-serif;
+    color: white;
+    background-color: #1f1f1f;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+h1 {
+    margin: 0%;
+    font-size: 27px;
+}
+
+h2 {
+    font-size: medium;
+    color: #cdf06b;
+}
+
+p {
+    font-weight: 100;
+}
+
+
+.linkme {
+    color: white;
+    background-color: #333333;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 270px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 9px;
+    font-weight: 600;
+}
+
+.linkme:hover {
+    background-color: #cdf06b;
+    color: #1f1f1f;
+}
