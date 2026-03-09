@@ -67,6 +67,7 @@ p {
 }
 
 .linkme:hover {
-    background-color: #cdf06b;
+    background-color: #bfeb46;
     color: #1f1f1f;
+    transition: 0.5s;
 }
